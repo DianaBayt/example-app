@@ -19,5 +19,9 @@ Route::get('/my-page', function () {
 });
 Route::get('/', function () {
     return view('my-page');
-
 });
+Route::get('/my-table', function () {
+    return view('my-table');
+});
+
+
